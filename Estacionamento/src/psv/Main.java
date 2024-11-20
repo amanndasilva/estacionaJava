@@ -412,4 +412,13 @@ public class Main extends javax.swing.JFrame {
     private javax.swing.JTextField txtDescricao;
     private javax.swing.JTextField txtPlaca;
     // End of variables declaration//GEN-END:variables
+
+public static void main(String[] args) {
+    java.awt.EventQueue.invokeLater(new Runnable() {
+        public void run() {
+            new Main().setVisible(true);
+        }
+    });
+}
+
 }

@@ -18,21 +18,21 @@ public class Teste {
         CarroDAO cd = new CarroDAO(con);
         
         //Inserir
-        cb.setPlaca("ABC1589");
+        cb.setPlaca("CVB1234");
         cb.setCor("Rosa");
-        cb.setDescricao("Carro 4");
+        cb.setDescricao("Carro 6");
         
         System.out.println(cd.inserir(cb));
         
         //Alterar
-        /*cb.setPlaca("JKK1900");
+        cb.setPlaca("CVB1234");
         cb.setCor("Amarelo");
-        cb.setDescricao("Carro 2");
+        cb.setDescricao("Carro 6");
         
         System.out.println(cd.alterar(cb));
         
         //Excluir
-        cb.setPlaca("JKK1900");
+        cb.setPlaca("ABC1589");
         
         System.out.println(cd.alterar(cb));
         
@@ -44,8 +44,8 @@ public class Teste {
             for(CarroBean carro : lista){
                 System.out.println("Placa: " + carro.getPlaca());
                 System.out.println("Cor: " + carro.getCor());
-                System.out.println("Descrição: " + carro.getDescricao());
+                System.out.println("Descricao: " + carro.getDescricao());
             }
-        }*/
+        }
     }
 }

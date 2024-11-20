@@ -74,7 +74,7 @@ public class CarroDAO {
             ps.setString(1, carro.getPlaca());
             
             if(ps.executeUpdate() > 0){
-                return "Excluído com sucesso";
+                return "Excluido com sucesso";
             }else{
                 return "Erro ao excluir";
             }
